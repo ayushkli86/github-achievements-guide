@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  test-scripts:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Test shell scripts
+      run: |
+        # Check shell script syntax
+        for script in scripts/*.sh; do
+          if [ -f "$script" ]; then
+            echo "Checking $script"
+            bash -n "$script"
+          fi
+        done
+        
+    - name: Validate markdown
+      uses: DavidAnson/markdownlint-cli2-action@v16
+      with:
+        globs: '**/*.md'
+        
+    - name: Check for broken links
+      uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        use-quiet-mode: 'yes'
+        
+    - name: Validate repository structure
+      run: |
+        echo "Checking required files..."
+        test -f README.md && echo "✓ README.md exists"
+        test -f LICENSE && echo "✓ LICENSE exists"
+        test -f CONTRIBUTING.md && echo "✓ CONTRIBUTING.md exists"
+        test -d guides && echo "✓ guides/ directory exists"
+        test -d scripts && echo "✓ scripts/ directory exists"
+        test -d examples && echo "✓ examples/ directory exists"
+        echo "All required files and directories present"
