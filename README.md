@@ -1,4 +1,4 @@
-# 🏆 GitHub Achievements Guide - Get All Badges Fast
+# GitHub Achievements Guide - Get All Badges Fast
 
 > The complete guide that helped developers earn GitHub achievements efficiently
 
@@ -12,28 +12,28 @@
 
 A comprehensive guide to unlocking all GitHub achievements efficiently. This repository contains proven strategies, automation scripts, and step-by-step instructions for earning every GitHub badge.
 
-## 🚀 Quick Results
+## Quick Results
 
-- ✅ **Quickdraw Platinum** - 125+ closes in 2-4 hours
-- ✅ **Pull Shark Gold** - 128+ merges in 2-3 months  
-- ✅ **Starstruck Silver** - 128+ stars in 3-6 months
+- Quickdraw Platinum - 125+ closes in 2-4 hours
+- Pull Shark Gold - 128+ merges in 2-3 months  
+- Starstruck Silver - 128+ stars in 3-6 months
 
-## 📊 What You Get
+## What You Get
 
 - **Proven Strategies** - Battle-tested methods that actually work
 - **Automation Scripts** - Save hours with ready-to-use tools
 - **Step-by-Step Guides** - Clear instructions for every achievement
 - **Community Support** - Get help from other achievement hunters
 
-## ⭐ Star This Repository
+## Star This Repository
 
 **If this guide helps you earn GitHub achievements, please star this repository!**
 
 Your star helps other developers discover these strategies and builds our community of achievement hunters.
 
-[⭐ Click here to star this repository](https://github.com/ayushkli86/github-achievements-guide/stargazers)
+[Click here to star this repository](https://github.com/ayushkli86/github-achievements-guide/stargazers)
 
-## 🎯 Achievement Targets
+## Achievement Targets
 
 | Achievement | Bronze | Silver | Gold | Platinum |
 |-------------|--------|--------|------|----------|
@@ -43,7 +43,7 @@ Your star helps other developers discover these strategies and builds our commun
 | **YOLO** | 1 merge | 4 merges | 16 merges | 64 merges |
 | **Galaxy Brain** | 2 answers | 8 answers | 32 answers | 128 answers |
 
-## 📚 Available Guides
+## Available Guides
 - **[Quickdraw](guides/quickdraw.md)** - Close issues/PRs within 5 minutes (Bronze: 1, Silver: 5, Gold: 25, Platinum: 125)
 - **[Pull Shark](guides/pull-shark.md)** - Get pull requests merged (Bronze: 2, Silver: 16, Gold: 128, Platinum: 1024)  
 - **[Starstruck](guides/starstruck.md)** - Receive stars on repositories (Bronze: 16, Silver: 128, Gold: 512, Platinum: 4096)
