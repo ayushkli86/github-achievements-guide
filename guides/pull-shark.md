@@ -17,6 +17,52 @@ Building toward Pull Shark requires a combination of:
 2. **Community Engagement** - Build relationships with maintainers
 3. **Consistent Activity** - Regular contributions over time
 
+## 🎯 Fast Track to Gold (128 PRs)
+
+### Practice Repository Method
+
+Use our dedicated practice repo to build PR muscle memory:
+
+**[pull-shark-practice](https://github.com/ayushkli86/pull-shark-practice)** - Practice repo for rapid PR generation
+
+#### Quick Start
+1. Fork the practice repository
+2. Make small edits to `practice.md` (add a line, fix formatting, etc.)
+3. Commit to a new branch on GitHub
+4. Create and merge the PR
+5. Repeat daily
+
+#### Gold Strategy (2-3 months)
+- **Daily Goal**: 2-3 PRs (10-15 minutes)
+- **Weekly Goal**: 15-20 PRs
+- **Monthly Goal**: 60-80 PRs
+- **Total Time**: 128 PRs in 8-10 weeks
+
+#### Automation Workflow
+```bash
+# Clone your fork
+git clone https://github.com/YOUR_USERNAME/pull-shark-practice.git
+cd pull-shark-practice
+
+# Create PR loop (repeat 128 times)
+git checkout -b pr-$(date +%s)
+echo "PR #$(date +%s)" >> practice.md
+git add practice.md
+git commit -m "Practice PR $(date +%s)"
+git push origin HEAD
+gh pr create --fill
+gh pr merge --auto --squash
+```
+
+#### Tips for Gold Tier
+- Set a daily reminder for PR practice
+- Track progress in the practice.md file
+- Use GitHub mobile app for quick edits
+- Combine with real open source contributions
+- Celebrate milestones (25, 50, 100 PRs)
+
+---
+
 ## Method 1: Documentation Improvements
 
 Documentation PRs have high acceptance rates and provide genuine value.
